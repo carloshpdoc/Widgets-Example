@@ -97,3 +97,10 @@ struct LargeEmojiWidgetView: View {
         }
     }
 }
+
+
+struct EmojiWidgetPlaceholderView: View {
+  var body: some View {
+    Color(UIColor.systemIndigo)
+  }
+}
